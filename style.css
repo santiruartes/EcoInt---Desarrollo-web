@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.header-container {
+    display: flex;
+}
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    background-color: #007f5f;
+    width: 100%;
+}
+
+.p {
+    font-family: poppins, monospace;
+    color:aliceblue;
+    text-align: right; 
+}
+
+img{
+    width: 50%;
+}
