@@ -9,14 +9,17 @@
     gap: 10px;
     background-color: #007f5f;
     width: 100%;
+    border-radius: 5px;
+    border: 2px solid grey;
 }
 
 .p {
     font-family: poppins, monospace;
     color:aliceblue;
-    text-align: right; 
 }
 
 img{
     width: 50%;
+    border-radius: 5px;
+    border: 2px solid grey;
 }
