@@ -2,7 +2,7 @@
 
 :root {
     /*https://coolors.co/palette/d9ed92-b5e48c-99d98c-76c893-52b69a-34a0a4-168aad-1a759f-1e6091-184e77*/
-
+    --background-main: #99D98C;
     --background: #184E77;
     --primary: #52B69A;
     --secondary: 
@@ -26,7 +26,7 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-    background-color: #99D98C;
+    background-color: var(--background-main);
     width: 100%;
     border-radius: 5px;
     border: 2px solid white;
@@ -45,8 +45,9 @@
 .enlace{
     color: white;
 }
-.img-logo {
+.logo {
     display: flex;
-    width: 80px;
+    width: 75px;
+
 }
 
