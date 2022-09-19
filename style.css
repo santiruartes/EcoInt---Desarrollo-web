@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+:root {
+    /*https://coolors.co/palette/d9ed92-b5e48c-99d98c-76c893-52b69a-34a0a4-168aad-1a759f-1e6091-184e77*/
+
+    --background: #184E77;
+    --primary: #52B69A;
+    --secondary: 
+
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -17,7 +26,7 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-    background-color: #D9ED92;
+    background-color: #99D98C;
     width: 100%;
     border-radius: 5px;
     border: 2px solid white;
@@ -36,7 +45,7 @@
 .enlace{
     color: white;
 }
-.img {
+.img-logo {
     display: flex;
     width: 80px;
 }
