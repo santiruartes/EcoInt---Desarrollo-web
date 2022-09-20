@@ -2,10 +2,11 @@
 
 :root {
     /*https://coolors.co/palette/d9ed92-b5e48c-99d98c-76c893-52b69a-34a0a4-168aad-1a759f-1e6091-184e77*/
-    --background-main: #99D98C;
-    --background: #184E77;
+    --background-principal: #184E77;
+    --background: #168AAD;
     --primary: #52B69A;
-    --secondary: 
+    --inside-section: #76C893; 
+    --botton: #76C893;
 
 }
 
@@ -17,37 +18,113 @@
   list-style-type: none;  
 }
 
-.header-container {
+header {
+    background-color: var(--background);
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 65px;
+    padding: 0 px 30px 0px 30px;
+    position: fixed;
+    top: 0;
+}
+
+.logo {
+  height: 90px;
+  width: 90px;  
+}
+
+.navbar,
+.navbar-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    background-color: var(--background-main);
-    width: 100%;
-    border-radius: 5px;
-    border: 2px solid white;
+    gap:150px;
+    padding:30px
 }
 
-.ul{
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    gap: 30px;
-    padding: 30px;
-    font-family: poppins, monospace;
-    color:aliceblue;
+.navbar-list {
+    gap:30px;
+
 }
 
-.enlace{
+.navbar-list a {
     color: white;
+    font-size: 14px;
 }
-.logo {
+
+.carrito {
+    border: 1px solid var(--primary);
+    padding: 12px 18pxs;
+    margin-top: 3px;
+    border-radius: 10px;
+    height: 36px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+main {
+  background: var(--background-principal); 
+  display: flex;
+  flex-direction: column;
+  color: white; 
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+#hero {
+    margin-top: 65px;
+    padding: 70px 0px;
+    max-width: 1200px;
     display: flex;
-    width: 75px;
-
+    justify-content: center;
+    align-items: center;
 }
 
+.hero-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+
+.hero-info h1 {
+    font-size: 48px;
+    width: 80%;
+    min-width: 500px;
+    font-weight: 800;
+    color: #f5f5f5;
+}
+
+.hero-info p {
+    font-size: 14px;
+    width: 70%;
+    color: var(--inside-section)
+}
+
+.hero-info p > span {
+    font-weight: 800;
+}
+
+.hero-info a {
+    color: white;
+    background-color: var(--botton);
+    width: 120px;
+    padding: 8px 0px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.hero-card img {
+   height: 50%;
+   width: 50%;
+   
+}
