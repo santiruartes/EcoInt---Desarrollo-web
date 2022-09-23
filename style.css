@@ -15,7 +15,8 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  list-style-type: none;  
+  list-style-type: none;
+  font-family: Poppins, 'Times New Roman', Times, serif;  
 }
 
 header {
@@ -116,7 +117,7 @@ main {
     color: white;
     background-color: var(--botton);
     width: 120px;
-    padding: 8px 0px;
+    padding: 8px 1px;
     border-radius: 10px;
     font-size: 14px;
     font-weight: 400;
@@ -124,7 +125,35 @@ main {
 }
 
 .hero-card img {
-   height: 50%;
-   width: 50%;
-   
+   border-radius: 10px;
+   height: 300px;
 }
+
+
+#info-section{
+    padding: 70px 0;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.info-descriptiva{
+    padding: 70px 0;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px
+ }
+
+ .info-descriptiva h2 {
+    font-size: 32px;
+    font-weight: 800;
+ }
+
+ .info-descriptiva p { 
+    text-align: center;
+ } 
