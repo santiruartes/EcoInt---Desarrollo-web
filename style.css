@@ -204,3 +204,62 @@ main {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
  }
 
+ .main-contact {
+    background: var(--background-principal);
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 100px 20px;
+ }
+
+ .contact {
+    background: var(--inside-section);
+    color: white;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 10px 15px;
+    border-radius: 15px;
+    width: 600px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+ }
+ 
+ .contact h2 {
+    display: flex;
+    align-items: flex-start;
+ }
+
+ .map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ footer {   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-principal);
+    background: linear-gradient(to top, var(--primary), var(--background-principal));
+    height: 80px;
+    gap: 50px;
+}
+
+footer h6 {
+    color: darkgray;
+    padding: 10px 0 0 0;
+}
+
+ footer img {
+    background-color: var(--background-principal);
+    background: linear-gradient(to top, var(--primary), var(--background-principal));
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
