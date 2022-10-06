@@ -29,6 +29,7 @@ header {
     padding: 0 px 30px 0px 30px;
     position: fixed;
     top: 0;
+    z-index: 1;
 }
 
 .logo {
@@ -56,6 +57,15 @@ header {
 .navbar-list a {
     color: white;
     font-size: 14px;
+}
+
+.navbar i {
+    font-size: 36px;
+    display: none;
+}
+
+#toggle-menu {
+    display: none;
 }
 
 .carrito {
@@ -285,10 +295,8 @@ footer h6 {
     align-items: center;
  }
 
+
 @media (max-width: 992px) {
-    header {
-        display: none;
-    }
 
     .hero-info {
         width: 100%;
@@ -325,4 +333,26 @@ footer h6 {
 
 }
 
+@media (max-width: 576px) {
+    .navbar ul {
+        background-color: var(--primary);
+        width: 100%;
+        height: cal(100vh - 80px);
+        position: absolute;
+        top: 65px;
+        left: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transform: translateX(200%);
+    }
+
+    .navbar i {
+        display: block;
+    }
+
+    #toggle-menu:checked + .navbar-list {
+        transform: translateX(0%);
+    }
+}
   
